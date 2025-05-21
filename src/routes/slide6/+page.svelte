@@ -14,7 +14,7 @@
 
 <Title 
 prevSlide="/slide5" 
-nextSlide="/" 
+nextSlide="/slide7" 
 title="Korpi"
 subtitle="Live Demo of Korpi"></Title>
 

@@ -1,0 +1,14 @@
+/*Global Styles for Presentation*/
+* {
+    margin: 0;
+    padding: 0;
+
+    color: #211f1f; 
+    background-color: #fefcff;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+
+    max-width: 1200px;
+    margin: 0 auto;
+}

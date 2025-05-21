@@ -5,6 +5,7 @@
 
     import { fade } from "svelte/transition";
 
+    let currentAspect = $state('Evaluation');
     let counter = $state(0);
     let olderData = $state([0, 0, 0, 0, 0]);
     let youngerData = $state([0, 0, 0, 0, 0]);
@@ -29,6 +30,7 @@
     }
 
     function handleDataChange(entry) {
+        currentAspect = entry[0];
         youngerData = [...entry[2]];
         olderData = [...entry[3]];
     }
@@ -61,13 +63,19 @@
 
     .subtext {
         font-weight: 400;
-        font-size: calc(var(--fontsize) * 0.8);
+        font-size: 0.9rem;
+    }
+    .current-aspect-text {
+        text-align: center;
+        font-weight: bold;
+        font-size: 1.5rem;
+        margin: 10px;
+        color: darkslategray;
     }
 
 </style>
 
 <svelte:window onkeydown={onkeydown} />
-
 
 <Title title="Results" nextSlide="/slide6" />
 <div class="slidecontent">
@@ -80,9 +88,9 @@
             <p class="subtext">{inp[1]}</p>
         </div>
     {/each}
-        <!-- <StaggeredText input_text={categories} /> -->
     </div>
-    <div class="graphcontainer">
+    <div class="rightside">
+        <div class="current-aspect-text">{currentAspect}</div>
         <Graph graphId="graph1" olderData={olderData} youngerData={youngerData} ></Graph>
     </div>
 </div>

@@ -28,18 +28,41 @@
                     ] 
                 },
                 options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
                     scales: {
                         y: {
+                            title: {
+                                display: true,
+                                text: 'Number of Responses',
+                                font: {size: 20},
+                            },
                             ticks: {
                                 stepSize: 1,
+                                font: {size: 18},
                             },
+                            suggestedMax: 5,
                             beginAtZero: true
+                        },
+                        x: {
+                            title: {
+                                display: true,
+                                text: 'Grade',
+                                font: {size: 20},
+                            },
+                            ticks: {
+                                stepSize: 1,
+                                font: {size: 18},
+                            },
                         }
                     },
                     plugins: {
                         legend: {
                             display: true,
                             position: 'right',
+                            labels: {
+                                font: {size: 20},
+                            }
                         }
                     }
                 }
@@ -47,12 +70,15 @@
         )
     });
 
-     /* onMount(() => {
-        createChart();
-     }); */
-
 </script>
 
+<style>
+    .chartcontainer {
+        width: 900px;
+        height: 600px; 
+    }
+</style>
+
 <div class="chartcontainer">
-    <canvas bind:this={canvas} id={graphId} width="600px" height="300px"></canvas>
+    <canvas bind:this={canvas} id={graphId} style="width: 100%; height: 100%;"></canvas>
 </div>

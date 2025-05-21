@@ -13,4 +13,4 @@
 </script>
 
 <Title nextSlide='slide2' title="Agenda" --fontsize="1.5rem"/>
-<StaggeredText --fontsize="1.5rem" input_text={agenda_text} />
+<StaggeredText --fontsize="2rem" input_text={agenda_text} />

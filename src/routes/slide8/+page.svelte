@@ -35,6 +35,10 @@
         letter-spacing: 0.5px;
     }
 
+    .highlight-word {
+        color: darkred;
+        font-weight: bold;
+    }
     
     img {
         margin: 0;
@@ -44,7 +48,7 @@
 
 <Title
     prevSlide="/slide7"
-    nextSlide="/"
+    nextSlide="/slide9"
     title = "Method"
     subtitle = "Tech stack used to develop Korpi"
 ></Title>
@@ -76,7 +80,7 @@
             <img alt="react logo" src={sbLogo} style="height: 100px; width: 100px;"/>
             <div class="text-block">
                 <p class="logo-main-text">Språkbanken Korp API + Korpsearch</p>
-                <p class="logo-main-desc">The backend was composed of the publically avaliable Korp API and a custom-made Korpsearch.</p>
+                <p class="logo-main-desc">The backend was composed of the publically avaliable <span class="highlight-word">Korp API</span> and a custom-made <span class="highlight-word">Korpsearch</span>.</p>
             </div>
         </div>
     </div>

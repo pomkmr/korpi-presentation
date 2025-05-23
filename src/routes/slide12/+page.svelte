@@ -15,7 +15,7 @@
 <Title 
     title="The End" 
     subtitle="Main Findings From Korpi" 
-    nextSlide="/"
+    nextSlide="/slide13"
     prevSlide="/slide11"/>
 <div>
     <StaggeredText --fontsize="1.4rem" input_text={problems} />

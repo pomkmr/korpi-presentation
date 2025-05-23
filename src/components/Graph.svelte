@@ -1,6 +1,5 @@
 <script>
-    import { onMount } from "svelte";
-    
+ 
     let { graphId, olderData, youngerData } = $props();
     let canvas;
     let ctx;

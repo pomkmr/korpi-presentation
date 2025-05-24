@@ -7,7 +7,7 @@
 
     function onkeydown(e) {
          if (e.key === "0") {
-            korpVisible = true;
+            korpVisible = !korpVisible;
         }
     }
 </script>
@@ -40,7 +40,7 @@ subtitle="Live Demo of Korpi"></Title>
     src="https://korpi.netlify.app" 
     frameborder="0"></iframe>
 
-    {#if korpVisible}    
+    {#if korpVisible}
     <iframe in:fade={{duration: 1000}}
         title=""
         style="width: 100%;height:100%;"

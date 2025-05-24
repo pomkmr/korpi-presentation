@@ -19,12 +19,13 @@
         margin-top: 20px;
     }
     .maintext {
-        font-weight: bold;
-        color: rgb(59, 5, 5);
+        font-weight: 600;
+        color: var(--text-secondary-color);
     }
     .subtext {
         font-weight: 400;
         font-size: calc(var(--fontsize) * 0.8);
+        margin-top: 5px;
     }
     
 </style>

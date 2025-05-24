@@ -12,5 +12,15 @@
 
 </script>
 
-<Title nextSlide='slide2' title="Agenda" --fontsize="1.5rem"/>
-<StaggeredText --fontsize="2rem" input_text={agenda_text} />
+<style>
+    .textcontent {
+        margin-top: 100px;
+    }
+</style> 
+
+<div class="slidecontent">
+    <Title nextSlide='slide2' title="Agenda" subtitle="What are we going to talk about?" --fontsize="2rem"/>
+    <div class="textcontent">
+        <StaggeredText --fontsize="2rem" input_text={agenda_text} />
+    </div>
+</div>

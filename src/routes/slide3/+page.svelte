@@ -5,22 +5,17 @@
     let w, h = "1000px";
     let screenTextVisible = $state(false);
     let screenText = [
-        'Sample1', 
-        'Sample2', 
-        'Sample3', 
-        'Sample4'];
+        'Aimed at linguists and professionals.', 
+        'Lots of functionality which may be overwhelming for the general public.', 
+        'Not adapted to smaller screens and mobile devices.', 
+        'Slow for searching across large number of corpora.'];
 
     let blurAmount = $state('0px');
 
     function onkeydown(e) {
         if (e.key === " ") {
-            blurAmount = '5px';
-            screenTextVisible = true;
-        }
-
-        if (e.key === "Backspace") {
-            blurAmount = '0px';
-            screenTextVisible = false;
+            blurAmount = screenTextVisible ? '0px' : '10px';
+            screenTextVisible = !screenTextVisible;
         }
     }
 
@@ -30,24 +25,26 @@
     .framecontent{
         width: inherit;
         height: 1000px;
-        resize: both;
+        resize: horizontal;
         overflow: hidden;
         transition: all 0.3s ease;
         filter: blur(var(--blur-amount));
+
+        margin-top: 10px;
     }
 
     .problems-text {
         position: absolute;
         background-color: transparent;
-        top: 500px;
+        top: 240px;
     }
 
     .screen-text {
         background-color: transparent;
-        color: orange;
+        color: var(--text-secondary-color);
         font-weight: bold;
-        font-size: 2rem;
-        margin: 30px 0;
+        font-size: 2.5rem;
+        margin: 50px 0;
     }
 </style>
 
@@ -55,8 +52,10 @@
 
 <Title 
     title="Korp" 
-    subtitle="Språkbanken" 
-    nextSlide="slide4"/>
+    subtitle="Språkbanken provides a search engine for corpora." 
+    nextSlide="slide4"
+    prevSlide="slide2"
+    --fontsize="2rem"/>
 
 <div class="slidecontent">
     <div class="framecontent" style="--blur-amount: {blurAmount}">

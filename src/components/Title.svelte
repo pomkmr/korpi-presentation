@@ -3,7 +3,7 @@
     import { onMount } from 'svelte';
     import { fade } from 'svelte/transition';
 
-    let {title, prevSlide="/", nextSlide="/", subtitle = "", fontsize="24px"} = $props();
+    let {title, prevSlide="/", nextSlide="/", subtitle = ""} = $props();
 
     let visible = $state(false);
 
@@ -27,10 +27,19 @@
 
 <style>
     .header-title {
-        font-weight: 100;
-        font-size: var(--fontsize);
-        color: gray;
         margin-top: 50px;
+        font-size: var(--fontsize);
+        
+    }
+    .header-main-title {
+        font-weight: bold;
+        color: var(--text-main-color);
+        background-color: transparent;
+    }
+
+    .header-main-subtitle {
+        color: var(--text-secondary-color);
+        background-color: transparent;
     }
 
 </style>
@@ -39,7 +48,7 @@
 
 {#if visible}
     <div in:fade={{duration:1000}} class="header-title">
-        <h1>{title}</h1>
-        <h2>{subtitle}</h2>
+        <h1 class='header-main-title'>{title}</h1>
+        <h2 class='header-main-subtitle'>{subtitle}</h2>
     </div>
 {/if}

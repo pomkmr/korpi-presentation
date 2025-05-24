@@ -16,7 +16,7 @@
 <style>
     .alltext {
         font-size: var(--fontsize);
-        margin-top: 20px;
+        margin-top: 40px;
     }
     .maintext {
         font-weight: 600;
@@ -25,7 +25,8 @@
     .subtext {
         font-weight: 400;
         font-size: calc(var(--fontsize) * 0.8);
-        margin-top: 5px;
+        margin-top: 7px;
+        line-height: 1.35;
     }
     
 </style>

@@ -33,12 +33,12 @@
     }
     .header-main-title {
         font-weight: bold;
-        color: var(--text-main-color);
+        color: var(--text-secondary-color);
         background-color: transparent;
     }
 
     .header-main-subtitle {
-        color: var(--text-secondary-color);
+        color: var(--text-main-color);
         background-color: transparent;
     }
 

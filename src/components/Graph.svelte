@@ -58,7 +58,7 @@
                     plugins: {
                         legend: {
                             display: true,
-                            position: 'right',
+                            position: 'top',
                             labels: {
                                 font: {size: 20},
                             }

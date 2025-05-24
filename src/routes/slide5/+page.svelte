@@ -77,7 +77,7 @@
 
 <svelte:window onkeydown={onkeydown} />
 
-<Title title="Results" nextSlide="/slide6" />
+<Title title="Results" nextSlide="/slide6" prevSlide="/slide4"/>
 <div class="slidecontent">
     <div class="aspectstext">
     <!-- svelte-ignore a11y_no_static_element_interactions -->

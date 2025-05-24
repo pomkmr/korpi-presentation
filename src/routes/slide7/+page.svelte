@@ -45,7 +45,7 @@
 </style>
 
 <Title 
-prevSlide="/slide5" 
+prevSlide="/slide6" 
 nextSlide="/slide8" 
 title="Method"
 subtitle="Designs Of Korpi"></Title>

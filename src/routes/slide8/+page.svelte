@@ -18,7 +18,6 @@
         align-items: center;
     }
     
-
     .text-block {
         margin-left: 30px;
     }

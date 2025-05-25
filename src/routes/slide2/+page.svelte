@@ -116,7 +116,7 @@ prevSlide="/slide1" nextSlide="slide3" />
 <div class="slidecontent">
     <div class="textcontent">
             <StaggeredText {input_text} --fontsize="2.4rem" />
-        </div>
+    </div>
     <div class="card-page">
         <div in:fade={{duration:1000, delay:500}} class="page">
             {#each page_text as word, i}
@@ -135,6 +135,5 @@ prevSlide="/slide1" nextSlide="slide3" />
                 {dictData[0]}
             </div>
         </div>
-        
     </div>
 </div>

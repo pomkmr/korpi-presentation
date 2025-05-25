@@ -14,10 +14,11 @@
     .textcontent {
         margin-top: 100px;
         max-width: 1200px;
-        /* border: 2px solid gray; */
+        border: 2px solid gray;
         border-radius: 15px;
         padding: 90px;
-
+        padding-bottom: 130px;
+        
         transition: box-shadow 0.3s ease;
     }
 

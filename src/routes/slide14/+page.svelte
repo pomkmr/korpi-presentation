@@ -56,6 +56,7 @@
         grid-template-columns: repeat(8, 1fr);
         border-radius: 15px;
         border: 2px solid gray;
+
         transition: box-shadow 0.3s ease;
     }
 
@@ -92,7 +93,7 @@
         title="What is a corpus?" 
         subtitle="A collection of written or spoken texts." 
         --fontsize="2rem"
-        prevSlide="/slide2" nextSlide="slide4" />
+        prevSlide="/slide13" nextSlide="/" />
     
     <div class="maincontent" in:fade|global={{duration: 1000}}>
         <div class="textcontent">

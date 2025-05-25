@@ -127,7 +127,7 @@
 <Title 
     title="Results" 
     subtitle="Aggregated results from all participants" 
-    nextSlide="/"
+    nextSlide="/slide14"
     prevSlide="/slide12"/>
 <div class="chartcontainer">
     <canvas bind:this={canvas} id="main-chart" style="width: 100%; height: 100%;"></canvas>

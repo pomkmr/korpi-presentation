@@ -6,7 +6,7 @@
         ['Background', 'What is a corpus? What is Korp?'],
         ['Implementation and Methods', 'Focus Groups. Coding the application.'],
         ['Results', 'Evaluation. Final Korpi Demo'],
-        ['Discussions', ['Main Findings']],
+        ['Discussions', 'Main Findings'],
         ['Conclusions', 'Ethical Aspects. Future Improvements.'],
     ]
 

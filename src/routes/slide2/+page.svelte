@@ -12,6 +12,14 @@
     let selectedWordDef = $state('');
     let selectedWordClass = $state('');
 
+
+    let showPage = $state(false);
+    function onkeydown (e) {
+        if (e.key === "ArrowDown") {
+            showPage = true;      
+        } 
+    }
+
     function onWordClick(e) {
         console.log('word clicked', e.target.innerText);
         selectedWord = e.target.innerText;
@@ -124,6 +132,8 @@
 
 </style>
 
+<svelte:window onkeydown={onkeydown} />
+
 <Title 
 title="What is a corpus?" 
 subtitle="A collection of written or spoken texts." 
@@ -131,17 +141,19 @@ subtitle="A collection of written or spoken texts."
 prevSlide="/slide1" nextSlide="slide14" />
 
 <div class="slidecontent">
+    {#if showPage}    
     <div class="textcontent">
             <StaggeredText {input_text} --fontsize="2rem" />
     </div>
+    
     <div class="card-page">
         <div in:fade={{duration:1000, delay:500}} class="page">
             {#each page_text as word, i}
-                <!-- svelte-ignore a11y_click_events_have_key_events -->
-                <!-- svelte-ignore a11y_no_static_element_interactions -->
-                <div in:fade|global={{delay:50*i}} class="word" onclick={(e) => onWordClick(e)}>
-                    {word}
-                </div>    
+            <!-- svelte-ignore a11y_click_events_have_key_events -->
+            <!-- svelte-ignore a11y_no_static_element_interactions -->
+            <div in:fade|global={{delay:50*i}} class="word" onclick={(e) => onWordClick(e)}>
+                {word}
+            </div>    
             {/each}
         </div>
         <div in:fade={{duration:1000, delay:1500}} class="card">
@@ -150,4 +162,5 @@ prevSlide="/slide1" nextSlide="slide14" />
             <p class="word-text">Word Class: <span class="word-text-entry">{selectedWordClass}</span></p>
         </div>
     </div>
+    {/if}
 </div>

@@ -1,4 +1,5 @@
 <script>
+    import { fade } from "svelte/transition";
     import StaggeredText from "../../components/StaggeredText.svelte";
     import Title from "../../components/Title.svelte";
 
@@ -12,6 +13,8 @@
             ["Problem 2: Useful Functionality", 
                 "Users might not know what they would like to use these functionalities for, as they are not necessarily applicable to the general public."],
         ]
+
+    let showProblems = $state(false);
 </script>
 
 <style>
@@ -28,6 +31,8 @@
 
     .greenborder {
         border: 2px solid green;
+
+        
     }
 
     .redborder {
@@ -47,9 +52,14 @@
     nextSlide="slide9"
     prevSlide="slide3"
     --fontsize="1rem"/>
-<div class="textcontent greenborder">
+<!-- svelte-ignore a11y_click_events_have_key_events -->
+<!-- svelte-ignore a11y_no_static_element_interactions -->
+<div class="textcontent greenborder" onclick={() => showProblems = true}>
     <StaggeredText --fontsize="1.5rem" input_text={aim} />
 </div>
-<div class="textcontent redborder">
+
+{#if showProblems}
+<div class="textcontent redborder" in:fade={{duration: 1000}}>
     <StaggeredText --fontsize="1.5rem" input_text={problems} />
 </div>
+{/if}

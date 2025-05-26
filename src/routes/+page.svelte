@@ -23,7 +23,7 @@
 
     .author-container {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
 
         margin-top: 50px;
     }
@@ -31,7 +31,7 @@
         color: var(--text-secondary-color);
         font-weight: bold;
         font-size: 1.5em;
-        margin: 10px;
+        margin: 5px 0;
     }
 
     .extra-container {

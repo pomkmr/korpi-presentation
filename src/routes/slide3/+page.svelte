@@ -52,7 +52,7 @@
 
 <Title 
     title="Korp" 
-    subtitle="Språkbanken provides a search engine for corpora." 
+    subtitle="Språkbanken provides a search engine for hundreds of corpora." 
     nextSlide="slide4"
     prevSlide="slide14"
     --fontsize="1rem"/>

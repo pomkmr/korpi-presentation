@@ -95,13 +95,13 @@
     <!-- svelte-ignore a11y_no_static_element_interactions -->
     {#each categories as inp, i}
         <!-- svelte-ignore a11y_click_events_have_key_events -->
-        <div onclick={() => handleDataChange(inp)} class="alltext" in:fade|global = {{duration: 1000, delay: 300 * i}}>
+        <div onclick={() => handleDataChange(inp)} class="alltext" in:fade|global = {{duration: 1000, delay: 100 * i}}>
             <p class="maintext">{inp[0]}</p>
             <p class="subtext">{inp[1]}</p>
         </div>
     {/each}
     </div>
-    <div class="rightside">
+    <div class="rightside" in:fade={{duration:1000}}>
         <div class="current-aspect-text">{currentAspect}</div>
         <Graph graphId="graph1" olderData={olderData} youngerData={youngerData} ></Graph>
     </div>

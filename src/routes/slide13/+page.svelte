@@ -1,4 +1,5 @@
 <script>
+    import { fade } from "svelte/transition";
     import Title from "../../components/Title.svelte";
 
     let data = []
@@ -132,6 +133,6 @@
     subtitle="Aggregated results from all participants" 
     nextSlide="/slide10"
     prevSlide="/slide5"/>
-<div class="chartcontainer">
+<div class="chartcontainer" in:fade={{duration:1000}}>
     <canvas bind:this={canvas} id="main-chart" style="width: 100%; height: 100%;"></canvas>
 </div>

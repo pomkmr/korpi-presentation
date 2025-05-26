@@ -67,6 +67,7 @@
 
     .textcontent {
         text-align: center;
+        margin: 40px;
     }
 
     .play-title {
@@ -92,12 +93,12 @@
     <Title 
         title="What is a corpus?" 
         subtitle="A collection of written or spoken texts." 
-        --fontsize="2rem"
+        --fontsize="1.5rem"
         prevSlide="/slide2" nextSlide="/slide3" />
     
     <div class="maincontent" in:fade|global={{duration: 1000}}>
         <div class="textcontent">
-            <StaggeredText {input_text} --fontsize="2.4rem" />
+            <StaggeredText {input_text} --fontsize="2rem" />
         </div>
 
         <div class="cards-container">

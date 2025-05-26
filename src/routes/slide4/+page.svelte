@@ -7,10 +7,10 @@
             "Develop an interface for Korp that is user-friendly for the general public."],]
 
     let problems = [
-        ["Problem 1: User-friendly Design", 
-            "Adapting the web application for both mobile and desktop devices, as well as presenting large amounts of lexical information without overwhelming the user."],
-        ["Problem 2: Useful Functionality", 
-            "Users might not know what they would like to use these functionalities for, as they are not necessarily applicable to the general public."],
+            ["Problem 1: User-friendly Design", 
+                "Adapting the web application for both mobile and desktop devices, as well as presenting large amounts of lexical information without overwhelming the user."],
+            ["Problem 2: Useful Functionality", 
+                "Users might not know what they would like to use these functionalities for, as they are not necessarily applicable to the general public."],
         ]
 </script>
 

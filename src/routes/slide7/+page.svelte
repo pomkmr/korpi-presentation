@@ -33,7 +33,9 @@
         width: 100%;
         height: 600px;
         margin: 10px 0;
-        border: 1px solid gray;
+        border-radius: 15px;
+        overflow: hidden;
+        border: 2px solid gray;
     }
 
     .framecontent{
@@ -41,6 +43,32 @@
         height: 900px;
         resize: both;
         overflow: hidden;
+    }
+
+    .timeline-container {
+        text-align: center;
+    }
+
+    .timeline-dot {
+        width: 30px;
+        height: 30px;
+        padding: 5px;
+        border: 0px transparent;
+        border-radius: 50%;
+        font-weight: bold;
+        font-size: 1rem;
+        color: white;
+        display: inline-block;
+        text-align: center;
+        background-color: var(--text-secondary-color);
+
+        transition: box-shadow 0.3s ease;
+    }
+
+    .timeline-dot:hover {
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+        background-color: gray;
+        cursor: pointer;
     }
 
 
@@ -74,14 +102,14 @@ subtitle="Designs Of Korpi"></Title>
     {/if}
 
     </div>
-    <div class="button-group">
-        <button class="circle-button" onclick={() => {showFigma = false; showHTMLmock = false; showImage = true;}}>
+    <div class="timeline-container">
+        <button class="timeline-dot" onclick={() => {showFigma = false; showHTMLmock = false; showImage = true;}}>
             1
         </button>
-        <button class="circle-button" onclick={() => {showFigma = true; showHTMLmock = false; showImage = false;}}>
+        <button class="timeline-dot" onclick={() => {showFigma = true; showHTMLmock = false; showImage = false;}}>
             2
         </button>
-        <button class="circle-button" onclick={() => {showFigma = false; showHTMLmock = true; showImage = false;}}>
+        <button class="timeline-dot" onclick={() => {showFigma = false; showHTMLmock = true; showImage = false;}}>
             3
         </button>
     </div>

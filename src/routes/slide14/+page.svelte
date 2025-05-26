@@ -6,7 +6,7 @@
 
     import { onMount } from 'svelte';
 
-    let input_text = [["", "There may be hundreds of texts containing millions of annotated words, grouped into large corpora."]]
+    let input_text = [["", "Det kan finnas hundratals texter som innehåller miljontals annoterade ord, grupperade i stora korpusar."]]
 
     const base_url = "rj.txt";
     let dict1 = $state(''); //RJ
@@ -91,8 +91,8 @@
 
 <div class="slidecontent">
     <Title 
-        title="What is a corpus?" 
-        subtitle="A collection of written or spoken texts." 
+        title="Vad är en korpus?" 
+        subtitle="En samling av stora mängder skrivna eller talade texter." 
         --fontsize="1rem"
         prevSlide="/slide2" nextSlide="/slide3" />
     

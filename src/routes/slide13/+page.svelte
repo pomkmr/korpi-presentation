@@ -15,36 +15,36 @@
             {
                 type: 'line',
                 data: {
-                    labels: ['Useful', 'Responsiveness', 'Speed(Searches)', 'Navigation', 
-                            'Design', 'Interesting', 'Ease of understanding', 'Experience when using Korpi', 
-                            'Presentation of Information', 'Presentation of Statistics', 'Presentation of Results', 'Overall Impression'],
+                    labels: ['Användbar', 'Responsiv', 'Snabb(Sökningar)', 'Navigation', 
+                            'Design', 'Intressant', 'Tydlig', 'Upplevelse under användning', 
+                            'Informationpresentation', 'Statistikpresentation', 'Sökresultatpresentation', 'Korpi i sin helhet'],
                     datasets: [
                         {
-                            label: "Young #1",
+                            label: "Yngre #1",
                             data:  [3,4,5,5,5,5,3,4,4,4,4,4],
                         },
                         {
-                            label: "Young #2",
+                            label: "Yngre #2",
                             data: [3,3,3,4,3,3,3,3,4,4,4,4],
                         },
                         {
-                            label: "Young #3",
+                            label: "Yngre #3",
                             data:  [3,4,3,4,4,4,3,4,4,3,4,4],
                         },
                         {
-                            label: "Young #4",
+                            label: "Yngre #4",
                             data: [5,5,5,4,5,5,3,4,5,5,5,5],
                         },
                         {
-                            label: "Old #1",
+                            label: "Äldre #1",
                             data:  [3,3,4,4,5,4,3,4,3,3,4,4],
                         },
                         {
-                            label: "Old #2",
+                            label: "Äldre #2",
                             data: [1,1,2,2,3,1,2,3,3,4,2,2],
                         },
                         {
-                            label: "Old #3",
+                            label: "Äldre #3",
                             data:  [5,4,5,5,4,4,3,4,4,5,4],
                         },
                     ] 
@@ -61,7 +61,7 @@
                         y: {
                             title: {
                                 display: true,
-                                text: 'Grade',
+                                text: 'Betyg',
                                 font: {size: 20},
                             },
                             ticks: {
@@ -74,7 +74,7 @@
                         x: {
                             title: {
                                 display: false,
-                                text: 'Aspects',
+                                text: 'Aspekter',
                                 font: {size: 20},
                             },
                             ticks: {
@@ -129,8 +129,8 @@
 </style>
 
 <Title 
-    title="Results" 
-    subtitle="Aggregated results from all participants" 
+    title="Resultat" 
+    subtitle="Aggregerade resultat från alla deltagare" 
     nextSlide="/slide10"
     prevSlide="/slide5"/>
 <div class="chartcontainer" in:fade={{duration:1000}}>

@@ -5,10 +5,10 @@
     let w, h = "1000px";
     let screenTextVisible = $state(false);
     let screenText = [
-        'Aimed at linguists and professionals.', 
-        'Lots of functionality which may be overwhelming for the general public.', 
-        'Not adapted to smaller screens and mobile devices.', 
-        'Slow for searching across large number of corpora.'];
+        'Riktad mot lingvister och yrkesverksamma.',
+        'Många funktioner som kan vara överväldigande för allmänheten.',
+        'Inte anpassad till mindre skärmar och mobila enheter.',
+        'Långsam sökning i ett stort antal korpusar.'];
 
     let blurAmount = $state('0px');
 
@@ -52,7 +52,7 @@
 
 <Title 
     title="Korp" 
-    subtitle="Språkbanken provides a search engine for hundreds of corpora." 
+    subtitle="Språkbanken erbjuder en sökmotor för hundratals korpora." 
     nextSlide="slide4"
     prevSlide="slide14"
     --fontsize="1rem"/>

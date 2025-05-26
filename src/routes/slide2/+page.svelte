@@ -4,7 +4,7 @@
     import StaggeredText from "../../components/StaggeredText.svelte";
     import Title from "../../components/Title.svelte";
 
-    let input_text = [["", "Every word in a corpus is annotated with certain attributes."],];
+    let input_text = [["", "Varje ord i en korpus är annoterad med vissa ord attribut."],];
 
     let page_text = "Two households, both alike in dignity, In fair Verona, where we lay our scene, From ancient grudge break to new mutiny, Where civil blood makes civil hands unclean. From forth the fatal loins of these two foes. A pair of star-cross'd lovers take their life; Whose misadventured piteous overthrows Do with their death bury their parents' strife.".split(' ');
     
@@ -27,19 +27,19 @@
         if (selectedWord === "households,") {
             selectedWord = "households";
             selectedWordDef = "those who dwell under the same roof and compose a family"
-            selectedWordClass = "noun";
+            selectedWordClass = "substantiv";
         }
 
         if (selectedWord === "ancient") {
             selectedWord = "ancient";
             selectedWordDef = "having had an existence of many years"
-            selectedWordClass = "noun";
+            selectedWordClass = "substantiv";
         }
 
         if (selectedWord === "misadventured") {
             selectedWord = "misadventured";
             selectedWordDef = "unfortunate; marked or accompanied by or resulting in misfortune"
-            selectedWordClass = "adjective";
+            selectedWordClass = "adjektiv";
         }
 
         if (selectedWord === "shall") {
@@ -135,8 +135,8 @@
 <svelte:window onkeydown={onkeydown} />
 
 <Title 
-title="What is a corpus?" 
-subtitle="A collection of written or spoken texts." 
+title="Vad är en korpus?" 
+subtitle="En samling av stora mängder skrivna eller talade texter." 
 --fontsize="1rem"
 prevSlide="/slide1" nextSlide="slide14" />
 
@@ -157,9 +157,9 @@ prevSlide="/slide1" nextSlide="slide14" />
             {/each}
         </div>
         <div in:fade={{duration:1000, delay:1500}} class="card">
-            <p class="word-text">Word: <span class="word-text-entry">{selectedWord}</span></p>
-            <p class="word-text">Meaning: <span class="word-text-entry">{selectedWordDef}</span></p>
-            <p class="word-text">Word Class: <span class="word-text-entry">{selectedWordClass}</span></p>
+            <p class="word-text">Ord: <span class="word-text-entry">{selectedWord}</span></p>
+            <p class="word-text">Definition: <span class="word-text-entry">{selectedWordDef}</span></p>
+            <p class="word-text">Ordklass: <span class="word-text-entry">{selectedWordClass}</span></p>
         </div>
     </div>
     {/if}

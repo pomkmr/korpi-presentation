@@ -6,23 +6,19 @@
     import { fade } from "svelte/transition";
 
     let text = [
-        ["Peter Ljunglöf", "For helping us with the backend and understanding linguistics."],
-        ["Språkbanken", "For taking their time to meet with us and explain Korp API and how Korp works."],
-        ["Focus Group Participants", "For being part of the evaluation."],
+        ["Peter Ljunglöf", "För din intressanta projekt, att du hjälpt oss med backend-systemet och ökat vår kunskap om språkvetenskap."],
+        ["Språkbanken", "För att de tog sig tid att träffa oss och förklara hur Korp samt Korp API fungerar."],
+        ["Fokusgruppsdeltagare", "För att ha varit en del av utvärderingen och att ni tog tid från era vardagar för att hjälpa oss utveckla Korpi!"],
     ];
 </script>
 
 <style>
     .maincontent {
-        display: flex;
-    }
-
-    .qr-code-column {
-        display: inline-block;
+        display: inline;
     }
 
     .text-column {
-        margin-top: 50px;
+        margin-top: 20px;
     }
 
     .desc-text {
@@ -51,7 +47,7 @@
 
 <Title 
     title="The End" 
-    subtitle="Thank you to everyone who worked on the project!" 
+    subtitle="Tack till alla som arbetade med projektet!" 
     nextSlide="/slide12"
     prevSlide="/slide11"/>
 <div class="maincontent">
@@ -59,7 +55,7 @@
         <StaggeredText --fontsize="1.4rem" input_text={text} />
     </div>
     <div in:fade={{duration: 1000}} class="qr-code-column">
-        <p class="desc-text">Test Korpi Right Now!</p>
+        <p class="desc-text">Testa Korpi!</p>
         <img src={qrLogo} alt="qrcode"/>
         <a class="korpi-link" href="https://korpi.netlify.app/">korpi.netlify.app</a>
     </div>

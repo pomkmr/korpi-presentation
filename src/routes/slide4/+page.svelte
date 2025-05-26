@@ -4,14 +4,14 @@
     import Title from "../../components/Title.svelte";
 
     let aim = [
-        ["Aim", 
-            "Develop an interface for Korp that is user-friendly for the general public."],]
+        ["Syfte", 
+            "Utveckla ett gränssnitt för Korp som är användarvänligt för allmänheten."],]
 
     let problems = [
-            ["Problem 1: User-friendly Design", 
-                "Adapting the web application for both mobile and desktop devices, as well as presenting large amounts of lexical information without overwhelming the user."],
-            ["Problem 2: Useful Functionality", 
-                "Users might not know what they would like to use these functionalities for, as they are not necessarily applicable to the general public."],
+            ["Problem 1: Användarvänlig design", 
+                "Anpassning av webbapplikationen för både mobila och stationära enheter, samt presentation av stora mängder lexikal information utan att överbelasta användaren."],
+            ["Problem 2: Användbar funktionalitet", 
+                "Användare kanske inte vet vad de vill använda dessa funktioner till, eftersom de inte nödvändigtvis är tillämpliga för allmänheten."],
         ]
 
     let showProblems = $state(false);
@@ -47,8 +47,8 @@
 </style>
 
 <Title 
-    title="Problem Areas" 
-    subtitle="The Problems With Korp" 
+    title="Syfte och Problem" 
+    subtitle="Vad vill vi göra?" 
     nextSlide="slide9"
     prevSlide="slide3"
     --fontsize="1rem"/>

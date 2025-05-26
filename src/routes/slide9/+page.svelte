@@ -3,8 +3,9 @@
     import StaggeredText from "../../components/StaggeredText.svelte";
     import Title from "../../components/Title.svelte";
 
-    let input_text =[["", "There were three separate meetings where the particpants could evaluate Korp and Korpi as well as provide feedback."]];
+    let input_text =[["", "Det fanns tre separata möten där deltagarna kunde utvärdera Korpi och Korpi samt ge feedback."]];
     
+    // Change this text
     let aim = [
         ["Aim", 
             "Develop an interface for Korp that is user-friendly for the general public."],]
@@ -107,8 +108,8 @@
 <Title
     prevSlide="/slide4"
     nextSlide="/slide7"
-    title="Method"
-    subtitle="Focus Groups Used For Evaluation"
+    title="Metod"
+    subtitle="Fokusgrupper användes för utvärdering"
 ></Title>
 
 <div class="slidecontent">
@@ -118,12 +119,12 @@
             
         <div class="content-column" in:fade={{duration:1000}}>
             <div class="circle circle-right">
-                4 Participants <br> Age less than 50
+                4 personer <br> Ålder mindre än 50
             </div>
         </div>
         <div class="content-column">
             <div class="circle circle-left" in:fade={{duration:1000, delay:100}}>
-                3 Participants <br> Age greater than 60
+                3 personer <br> Ålder över 60
             </div>
         </div>
         {/if}

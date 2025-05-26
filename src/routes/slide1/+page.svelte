@@ -3,11 +3,10 @@
     import Title from "../../components/Title.svelte";
 
     let agenda_text = [
-        ['Background', 'What is a corpus? What is Korp?'],
-        ['Implementation and Methods', 'Focus Groups. Coding the application.'],
-        ['Results', 'Evaluation. Final Korpi Demo'],
-        ['Discussions', 'Main Findings'],
-        ['Conclusions', 'Ethical Aspects. Future Improvements.'],
+        ['Bakgrund', 'Vad är en korpus? Vad är Korp?'],
+        ['Metoder och Implementering', 'Design. Fokusgrupper. Tech stack.'],
+        ['Resultat', 'Utvärdering. Korpi Demo.'],
+        ['Slutsatser', 'Utvärdering. Framtida förbättringar.'],
     ]
 
 </script>
@@ -33,7 +32,7 @@
 
 <div class="slidecontent">
     <div class="title-text">
-        <Title nextSlide='slide2' title="Agenda" subtitle="What are we going to talk about?" --fontsize="1rem"/>
+        <Title nextSlide='slide2' title="Agenda" subtitle="Vad ska vi prata om?" --fontsize="1rem"/>
     </div>
     <div class="textcontent">
         <StaggeredText --fontsize="1.5rem" input_text={agenda_text} />

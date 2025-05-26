@@ -62,8 +62,8 @@
 <Title
     prevSlide="/slide7"
     nextSlide="/slide6"
-    title = "Method"
-    subtitle = "Tech stack used to develop Korpi"
+    title = "Metod"
+    subtitle = "Kodning och implementering av Korpi"
     --fontsize="1rem"
 ></Title>
 
@@ -73,28 +73,28 @@
             <img alt="react logo" src={jsLogo} style="height: 100px; width: 100px;"/>
             <div class="text-block">
                 <p class="logo-main-text">Javascript</p>
-                <p class="logo-main-desc">All coding was done with Javascript.</p>
+                <p class="logo-main-desc">All kodning gjordes med Javascript.</p>
             </div>
         </div>
         <div class="react-text">
             <img alt="react logo" src={reactLogo} style="height: 100px; width: 100px;"/>
             <div class="text-block">
                 <p class="logo-main-text">React</p>
-                <p class="logo-main-desc">Main UI Rendering Library. Component-based architecture.</p>
+                <p class="logo-main-desc">Huvudbibliotek för rendering av användargränssnitt. Component-based architecture för att dela upp arbetet och designen.</p>
             </div>
         </div>
         <div class="react-text">
             <img alt="react logo" src={bsLogo} style="height: 100px; width: 100px;"/>
             <div class="text-block">
                 <p class="logo-main-text">Bootstrap</p>
-                <p class="logo-main-desc">Base CSS framework, many components had custom styles.</p>
+                <p class="logo-main-desc">Bas CSS framework, men flera komponenter hade anpassade design.</p>
             </div>
         </div>
         <div class="react-text">
             <img alt="react logo" src={sbLogo} style="height: 100px; width: 100px;"/>
             <div class="text-block">
                 <p class="logo-main-text">Språkbanken Korp API + Korpsearch</p>
-                <p class="logo-main-desc">The backend was composed of the publically avaliable <span class="highlight-word">Korp API</span> and a custom-made <span class="highlight-word">Korpsearch</span>.</p>
+                <p class="logo-main-desc">Backend-systemet bestod av det allmänt tillgängliga <span class="highlight-word">Korp API</span> och <span class="highlight-word">Korpsearch</span>, en API från vår handledare.</p>
             </div>
         </div>
     </div>

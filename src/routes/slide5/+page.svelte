@@ -10,18 +10,18 @@
     let youngerData = $state([0, 0, 0, 0, 0]);
 
     let categories = [
-        ["Useful", "", [0, 0, 3, 0, 1], [1, 0, 1, 0, 1]],
-        ["Responsiveness", "", [0, 0, 1, 2, 1], [0, 0, 1, 1, 0]],
-        ["Speed(Searches)", "", [0, 0, 2, 0, 2], [0, 1, 0, 1, 1]],
+        ["Användbar", "", [0, 0, 3, 0, 1], [1, 0, 1, 0, 1]],
+        ["Responsiv", "", [0, 0, 1, 2, 1], [0, 0, 1, 1, 0]],
+        ["Snabb(Sökningar)", "", [0, 0, 2, 0, 2], [0, 1, 0, 1, 1]],
         ["Navigation", "", [0, 0, 0, 3, 1], [0, 1, 0, 1, 1]],
         ["Design", "", [0, 0, 1, 1, 2], [0, 0, 1, 1, 1]],
-        ["Interesting", "", [0, 0, 1, 1, 2], [1, 0, 0, 2, 0]],
-        ["Ease of understanding", "", [0, 0, 4, 0, 0], [0, 1, 2, 0, 0]],
-        ["Experience when using Korpi", "", [0, 0, 1, 3, 0], [0, 0, 1, 2, 0]],
-        ["Presentation of Information", "", [0, 0, 0, 3, 1], [0, 0, 2, 1, 0]],
-        ["Presentation of Statistics", "", [0, 0, 1, 2, 1], [0, 0, 1, 1, 1]],
-        ["Presentation of Results", "", [0, 0, 0, 2, 2], [0, 1, 0, 2, 0]],
-        ["Overall Impression", "", [0, 0, 0, 3, 1], [0, 1, 0, 1, 0]],
+        ["Intressant", "", [0, 0, 1, 1, 2], [1, 0, 0, 2, 0]],
+        ["Tydlig", "", [0, 0, 4, 0, 0], [0, 1, 2, 0, 0]],
+        ["Upplevelse under användning", "", [0, 0, 1, 3, 0], [0, 0, 1, 2, 0]],
+        ["Informationpresentation", "", [0, 0, 0, 3, 1], [0, 0, 2, 1, 0]],
+        ["Statistikpresentation", "", [0, 0, 1, 2, 1], [0, 0, 1, 1, 1]],
+        ["Sökresultatpresentation", "", [0, 0, 0, 2, 2], [0, 1, 0, 2, 0]],
+        ["Korpi i sin helhet", "", [0, 0, 0, 3, 1], [0, 1, 0, 1, 0]],
     ]
 
     function onkeydown (e) {
@@ -89,7 +89,7 @@
 
 <svelte:window onkeydown={onkeydown} />
 
-<Title title="Results" subtitle="What the focus groups thought of Korpi!" nextSlide="/slide13" prevSlide="/slide6"/>
+<Title title="Resultat" subtitle="Vad tyckte fokusgrupperna om Korpi?" nextSlide="/slide13" prevSlide="/slide6"/>
 <div class="slidecontent">
     <div class="aspectstext">
     <!-- svelte-ignore a11y_no_static_element_interactions -->

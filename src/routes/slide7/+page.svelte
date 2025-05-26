@@ -91,8 +91,8 @@
 <Title 
 prevSlide="/slide9" 
 nextSlide="/slide8" 
-title="Method"
-subtitle="Designs Of Korpi"></Title>
+title="Metod"
+subtitle="Utveckling av designs för Korpi"></Title>
 
 <div class="slidecontainer">
     <div class="maincontent">
@@ -131,7 +131,7 @@ subtitle="Designs Of Korpi"></Title>
     </div>
     
     <div class="staggertext-container">
-        <StaggeredText input_text={[["", "Korpi went through a lot of designs before the final product!"]]} 
+        <StaggeredText input_text={[["", "Korpi gick igenom många design iterationer innan den slutliga produkten!"]]} 
             --fontsize="2rem"></StaggeredText>
     </div>
 

@@ -15,12 +15,12 @@
                     labels: ['1', '2', '3', '4', '5'],
                     datasets: [
                         {
-                            label: "Younger",
+                            label: "Yngre",
                             data: $state.snapshot(youngerData),
                             borderWidth: 1,
                         },
                         {
-                            label: "Older",
+                            label: "Äldre",
                             data: $state.snapshot(olderData),
                             borderWidth: 1,
                         },
@@ -33,7 +33,7 @@
                         y: {
                             title: {
                                 display: true,
-                                text: 'Number of Responses',
+                                text: 'Antal svarade',
                                 font: {size: 20},
                             },
                             ticks: {
@@ -46,7 +46,7 @@
                         x: {
                             title: {
                                 display: true,
-                                text: 'Grade',
+                                text: 'Betyg',
                                 font: {size: 20},
                             },
                             ticks: {

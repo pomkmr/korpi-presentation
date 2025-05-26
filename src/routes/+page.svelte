@@ -70,9 +70,9 @@
     nextSlide='slide1'
     --fontsize="2.5rem"
     title="Korpi"
-    subtitle="developing a useful and user-friendly frontend for a corpus search engine"/>
+    subtitle="utveckling av ett användbart och användarvänligt gränssnitt för en korpussökmotor"/>
 
-    <div class="subtext" in:fade={{duration: 100, delay: 100}}>Bachelor's Thesis Presentation 2025</div>
+    <div class="subtext" in:fade={{duration: 100, delay: 100}}>Kandidatarbete 2025</div>
 
     <div class="author-container" in:fade={{duration: 1000, delay: 300}}>
         {#each authors as author}
@@ -83,7 +83,7 @@
     </div>
     <div class="extra-container" in:fade={{duration: 1000, delay: 600}}>
         <div class="supervisor-text">
-            <span class="supervisor-label">Supervisor:</span> Peter Ljunglöf
+            <span class="supervisor-label">Handledare:</span> Peter Ljunglöf
         </div>
     </div>
     <div class="footer" in:fade={{duration: 1000, delay: 800}}>

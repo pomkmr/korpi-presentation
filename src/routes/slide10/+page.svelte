@@ -3,16 +3,16 @@
     import Title from "../../components/Title.svelte";
 
     let conc = [
-        ["User-friendly and Useful", "Korpi is considered by the focus groups to be both useful and user-friendly. It works well on both desktop and mobile devices."],
-        ["Compared against Korp", "For first-time users, Korpi is more intuitive and easier to use than Korp provides."],
+        ["Användarvänlig och användbar", "Korpi anses av fokusgrupperna vara både användbart och användarvänligt. Det fungerar bra på både stationära och mobila enheter."],
+        ["Jämfört med Korp", "För förstagångsanvändare är Korpi mer intuitivt och enklare att använda än Korp."],
         ];
 
     let problems = [
-        ["Problem 1: Design for User-friendliness", 
-            "Adapting the web application for both mobile and desktop devices, as well as presenting large amounts of lexical information without overwhelming the user."],
-        ["Problem 2: Functionality for usefulness", 
-            "Users might not know what they would like to use these functionalities for, as they are not necessarily applicable to the general public."],
-        ];
+            ["Problem 1: Användarvänlig design", 
+                "Anpassning av webbapplikationen för både mobila och stationära enheter, samt presentation av stora mängder lexikal information utan att överbelasta användaren."],
+            ["Problem 2: Användbar funktionalitet", 
+                "Användare kanske inte vet vad de vill använda dessa funktioner till, eftersom de inte nödvändigtvis är tillämpliga för allmänheten."],
+        ]
 
 </script>
 
@@ -36,8 +36,8 @@
 </style>
 
 <Title 
-    title="Conclusion" 
-    subtitle="Main Findings From Korpi" 
+    title="Slutsats" 
+    subtitle="Huvudresultat från Korpi" 
     nextSlide="slide11"
     prevSlide="slide13"/>
 <div class="textcontent">

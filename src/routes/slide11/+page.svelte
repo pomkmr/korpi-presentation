@@ -3,8 +3,8 @@
     import Title from "../../components/Title.svelte";
 
     let imprv = [
-        ["Additional Backend Functionality", "The ability to add corpora to the backend. More statistics and source information in Korpsearch."],
-        ["Bugs", "Extended search sometimes does not work. Some elements are not adapted for dark mode. Statistics requires two button presses to get graph. Example searches are not connected to all corpora."],
+        ["Ytterligare backend-funktionalitet", "Möjligheten att lägga till korpusar i backend-systemet. Mer statistik och källinformation i Korpsearch."],
+        ["Bugs", "Utökad sökning fungerar ibland inte. Vissa element är inte anpassade för dark mode. Statistik kräver två knapptryckningar för att få grafen. Exempelsökningar är inte kopplade till alla korpusar."],
         ]
 </script>
 
@@ -27,8 +27,8 @@
 </style>
 
 <Title 
-    title="Future Work" 
-    subtitle="Improvements and New Features" 
+    title="Framtida Förbättringar" 
+    subtitle="Vad kan vi göra bättre?" 
     nextSlide="slide12"
     prevSlide="slide10"/>
 <div class="textcontent">

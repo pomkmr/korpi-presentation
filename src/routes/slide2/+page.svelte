@@ -59,7 +59,7 @@
         height: 600px;
 
         display: flex;
-        gap: 3px;
+        gap: 1ch;
         flex-wrap: wrap;
 
         transition: box-shadow 0.3s ease;

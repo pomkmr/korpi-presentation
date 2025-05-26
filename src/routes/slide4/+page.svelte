@@ -2,6 +2,10 @@
     import StaggeredText from "../../components/StaggeredText.svelte";
     import Title from "../../components/Title.svelte";
 
+    let aim = [
+        ["Aim", 
+            "Develop an interface for Korp that is user-friendly for the general public."],]
+
     let problems = [
         ["Problem 1: User-friendly Design", 
             "Adapting the web application for both mobile and desktop devices, as well as presenting large amounts of lexical information without overwhelming the user."],
@@ -12,7 +16,7 @@
 
 <style>
     .textcontent {
-        margin-top: 100px;
+        margin-top: 50px;
         max-width: 600px;
         border: 2px solid gray;
         border-radius: 15px;
@@ -35,6 +39,9 @@
     nextSlide="slide9"
     prevSlide="slide3"
     --fontsize="1rem"/>
+<div class="textcontent">
+    <StaggeredText --fontsize="1.5rem" input_text={aim} />
+</div>
 <div class="textcontent">
     <StaggeredText --fontsize="1.5rem" input_text={problems} />
 </div>

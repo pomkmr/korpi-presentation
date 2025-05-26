@@ -51,9 +51,9 @@
     .cards-container {
         margin: 20px;
         padding: 10px;
-        width: max-content;
+        width: min-content;
         display: grid;
-        grid-template-columns: repeat(7, 1fr);
+        grid-template-columns: repeat(5, 1fr);
         border-radius: 15px;
         border: 2px solid gray;
 

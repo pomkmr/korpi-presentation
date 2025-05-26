@@ -33,7 +33,7 @@
 
 <div class="slidecontent">
     <div class="title-text">
-        <Title nextSlide='slide2' title="Agenda" subtitle="What are we going to talk about?" --fontsize="1.5rem"/>
+        <Title nextSlide='slide2' title="Agenda" subtitle="What are we going to talk about?" --fontsize="1rem"/>
     </div>
     <div class="textcontent">
         <StaggeredText --fontsize="1.5rem" input_text={agenda_text} />

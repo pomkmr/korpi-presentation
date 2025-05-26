@@ -58,7 +58,8 @@
     }
     .subtext {
         margin-top: 10px;
-        font-size: 1.1rem;
+        font-style: italic;
+        font-size: 1.3rem;
         color: var(--text-secondary-color);
     }
 

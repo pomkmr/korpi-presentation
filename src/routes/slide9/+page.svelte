@@ -24,8 +24,10 @@
 <style>
 
     .slidecontent {
-        margin: 20px;
+        width: 100%;
         height: 600px;
+        margin: 10px 0;
+        border-radius: 15px;
     }
 
     .maincontent {
@@ -36,7 +38,6 @@
 
         border: 2px solid gray;
         border-radius: 15px;
-        margin: 10px;
     }
 
     .circle {

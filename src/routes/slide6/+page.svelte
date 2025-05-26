@@ -30,7 +30,7 @@
 <Title 
 prevSlide="/slide8" 
 nextSlide="/slide5" 
-title=""
+title="Korpi"
 subtitle=""
 --fontsize="1rem"></Title>
 

@@ -26,6 +26,14 @@
         transition: box-shadow 0.3s ease;
     }
 
+    .greenborder {
+        border: 2px solid green;
+    }
+
+    .redborder {
+        border: 2px solid red;
+    }
+
     .textcontent:hover {
         box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
         cursor:pointer;
@@ -39,9 +47,9 @@
     nextSlide="slide9"
     prevSlide="slide3"
     --fontsize="1rem"/>
-<div class="textcontent">
+<div class="textcontent greenborder">
     <StaggeredText --fontsize="1.5rem" input_text={aim} />
 </div>
-<div class="textcontent">
+<div class="textcontent redborder">
     <StaggeredText --fontsize="1.5rem" input_text={problems} />
 </div>

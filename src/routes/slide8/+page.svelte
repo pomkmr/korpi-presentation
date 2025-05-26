@@ -11,9 +11,23 @@
 </script>
 
 <style>
+
+    .maincontent {
+        border: 2px solid gray;
+        width: 100%;
+        height: 600px;
+        margin: 10px 0;
+        border-radius: 15px;
+
+        transition: box-shadow 0.3s ease;
+    }
+
+    .maincontent:hover {
+         box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    }
+
     .react-text {
-        margin-top: 50px;
-        margin-left: 100px;
+        margin:40px 90px;
         display: flex;
         align-items: center;
     }

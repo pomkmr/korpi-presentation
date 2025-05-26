@@ -3,8 +3,8 @@
     import Title from "../../components/Title.svelte";
 
     let conc = [
-        ["Finding 1", "Explanation 1"],
-        ["Finding 2", "Explanation 2"],
+        ["User-friendly and Useful", "Korpi is considered by the focus groups to be both useful and user-friendly. It works well on both desktop and mobile devices."],
+        ["Compared against Korp", "For first-time users, Korpi is more intuitive and easier to use than Korp provides."],
         ];
 
     let problems = [
@@ -18,7 +18,7 @@
 
 <style>
 .textcontent {
-        margin-top: 100px;
+        margin: 100px;
         max-width: 1200px;
         border: 2px solid gray;
         border-radius: 15px;
@@ -30,6 +30,7 @@
 
     .textcontent:hover {
         box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+        cursor: pointer;
     }
 
 </style>
@@ -43,5 +44,5 @@
     <StaggeredText --fontsize="1.5rem" input_text={problems} />
 </div>
 <div class="textcontent">
-    <StaggeredText --fontsize="2.5rem" input_text={conc} />
+    <StaggeredText --fontsize="2rem" input_text={conc} />
 </div>

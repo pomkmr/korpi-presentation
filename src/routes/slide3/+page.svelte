@@ -23,11 +23,11 @@
 
 <style>
     .framecontent{
-        width: inherit;
-        height: 1000px;
+        width: 100vw;
+        height: 100vh;
         resize: horizontal;
         overflow: hidden;
-        transition: all 0.3s ease;
+        transition: filter 0.3s ease;
         filter: blur(var(--blur-amount));
 
         margin-top: 10px;
@@ -43,8 +43,8 @@
         background-color: transparent;
         color: var(--text-secondary-color);
         font-weight: bold;
-        font-size: 2.5rem;
-        margin: 50px 0;
+        font-size: 2.0rem;
+        margin: 40px 0;
     }
 </style>
 
@@ -55,7 +55,7 @@
     subtitle="Språkbanken provides a search engine for corpora." 
     nextSlide="slide4"
     prevSlide="slide2"
-    --fontsize="2rem"/>
+    --fontsize="1rem"/>
 
 <div class="slidecontent">
     <div class="framecontent" style="--blur-amount: {blurAmount}">

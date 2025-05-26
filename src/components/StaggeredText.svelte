@@ -16,7 +16,7 @@
 <style>
     .alltext {
         font-size: var(--fontsize);
-        margin-top: 40px;
+        margin-top: 10px;
     }
     .maintext {
         font-weight: 600;

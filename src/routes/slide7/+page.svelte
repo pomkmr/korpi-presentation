@@ -29,7 +29,7 @@
     .maincontent {
         text-align: center;
         width: 100%;
-        height: 900px;
+        height: 600px;
         margin: 10px 0;
         border: 1px solid gray;
     }
@@ -64,7 +64,8 @@ subtitle="Designs Of Korpi"></Title>
     <div class="framecontent">
         <iframe 
         title=""
-        style="width: 100%;height:100%;"
+        style=""
+        width="100%" height="100%"
         src="https://pomkmr.github.io/korp-mocks/" 
         frameborder="0"></iframe>
     </div>

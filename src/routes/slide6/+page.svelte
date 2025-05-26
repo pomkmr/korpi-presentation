@@ -14,10 +14,10 @@
 
 <style>
     .maincontent {
-        margin-top: 50px;
-        width: inherit;
-        height: 900px;
-        resize: both;
+        margin-top: 10px;
+        width: 100vw;
+        height: 700px;
+        resize: horizontal;
         overflow: auto;
 
         display: flex;
@@ -30,8 +30,9 @@
 <Title 
 prevSlide="/slide5" 
 nextSlide="/slide7" 
-title="Korpi"
-subtitle="Live Demo of Korpi"></Title>
+title=""
+subtitle=""
+--fontsize="1rem"></Title>
 
 <div class="maincontent">
     <iframe in:fade={{duration: 1000}}

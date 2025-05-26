@@ -10,7 +10,7 @@
 <style>
 
     .slidecontent {
-        margin: 50px;
+        margin: 20px;
         height: 600px;
     }
 
@@ -22,12 +22,12 @@
     }
 
     .circle {
-        width: 400px;
-        height: 400px;
+        width: 300px;
+        height: 300px;
         border-radius: 50%;
         color: var(--text-secondary-color);
         font-weight: bold;
-        font-size: 2rem;
+        font-size: 1.5rem;
         border: 2px solid gray;
         display: flex;
         justify-content: space-around;
@@ -51,6 +51,8 @@
     }
 
     .staggertext-container {
+        margin-top: 40px;
+        width: 900px;
         text-align: center;
     }
 
@@ -65,7 +67,7 @@
 
 <div class="slidecontent">
     <div class="staggertext-container">
-        <StaggeredText {input_text} --fontsize="2.3rem"></StaggeredText>
+        <StaggeredText {input_text} --fontsize="2rem"></StaggeredText>
     </div>
     <div class="maincontent">
         <div class="content-column" in:fade={{duration:1000}}>

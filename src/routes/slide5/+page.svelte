@@ -46,8 +46,8 @@
     }
 
     .alltext {
-        font-size: 1.8rem;
-        margin-top: 20px;
+        font-size: 1.2rem;
+        margin-top: 10px;
     }
     .maintext {
         font-weight: bold;
@@ -66,17 +66,17 @@
     .current-aspect-text {
         text-align: center;
         font-weight: bold;
-        font-size: 2.2rem;
+        font-size: 2rem;
         margin: 10px;
         color: darkslategray;
     }
 
     .rightside {
         margin: 100px;
-        width: inherit;
+        width: 800px;
         border: 2px solid gray;
         border-radius: 15px;
-        padding: 40px;
+        padding: 10px;
 
         transition: box-shadow 0.3s ease;
     }

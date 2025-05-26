@@ -7,7 +7,6 @@
         ['Ludwig Alexandersson',''], 
         ['Erik Dreifeldt', ''],
         ['Pomesh Kumar', ''],
-        ['Madeleine Larsson', ''],
         ['Lisa Wadenbrant', ''],
         ['Ida Åberg',''],
         ['Peter Ljunglöf', 'Supervisor']
@@ -17,10 +16,10 @@
 
 <style>
     .title-slide {
-        margin-top: 100px;
+        margin-top: 40px;
     }
     .author-text {
-        margin-top: 50px;
+        margin-top: 20px;
     }
 
 </style>
@@ -28,11 +27,11 @@
 <div class="title-slide">
     <Title
     nextSlide='slide1'
-    --fontsize="4rem"
+    --fontsize="2.5rem"
     title="Korpi" 
     subtitle="developing a useful and user-friendly frontend for a corpus search engine"/>
     
     <div class="author-text">
-        <StaggeredText --fontsize="2rem" input_text={authors} />
+        <StaggeredText --fontsize="1.5rem" input_text={authors} />
     </div>
 </div>

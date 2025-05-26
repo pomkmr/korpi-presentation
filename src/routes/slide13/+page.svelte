@@ -108,12 +108,15 @@
     .chartcontainer {
         margin-top: 50px;
         width: inherit;
-        height: 900px; 
+        height: 500px; 
+
 
         border: 2px solid gray;
         border-radius: 15px;
-        padding: 100px;
-
+        padding-top: 50px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 20px;
         transition: box-shadow 0.3s ease;
     }
 

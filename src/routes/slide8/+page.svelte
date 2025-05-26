@@ -29,7 +29,7 @@
     }
 
     .logo-main-desc {
-        font-size: 1.25rem;
+        font-size: 1.3rem;
         margin-top: 5px;
         letter-spacing: 0.5px;
     }
@@ -50,6 +50,7 @@
     nextSlide="/slide9"
     title = "Method"
     subtitle = "Tech stack used to develop Korpi"
+    --fontsize="1rem"
 ></Title>
 
 <div class="slidecontent">
@@ -65,7 +66,7 @@
             <img alt="react logo" src={reactLogo} style="height: 100px; width: 100px;"/>
             <div class="text-block">
                 <p class="logo-main-text">React</p>
-                <p class="logo-main-desc">Main UI Rendering Library.</p>
+                <p class="logo-main-desc">Main UI Rendering Library. Component-based architecture.</p>
             </div>
         </div>
         <div class="react-text">

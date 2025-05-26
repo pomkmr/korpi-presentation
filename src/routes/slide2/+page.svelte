@@ -6,7 +6,7 @@
 
     let input_text = [["", "Every word in a corpus is annotated with certain attributes."],];
 
-    let page_text = "Two households, both alike in dignity, In fair Verona, where we lay our scene, From ancient grudge break to new mutiny, Where civil blood makes civil hands unclean. From forth the fatal loins of these two foes. A pair of star-cross'd lovers take their life; Whose misadventured piteous overthrows Do with their death bury their parents' strife. The fearful passage of their death-mark'd love, And the continuance of their parents' rage, Which, but their children's end, nought could remove, Is now the two hours' traffic of our stage; The which if you with patient ears attend, What here shall miss, our toil shall strive to mend.".split(' ');
+    let page_text = "Two households, both alike in dignity, In fair Verona, where we lay our scene, From ancient grudge break to new mutiny, Where civil blood makes civil hands unclean. From forth the fatal loins of these two foes. A pair of star-cross'd lovers take their life; Whose misadventured piteous overthrows Do with their death bury their parents' strife.".split(' ');
     
     let selectedWord = $state('');
     let selectedWordDef = $state('');
@@ -87,7 +87,7 @@
         padding: 20px 100px;
         height: 250px;
         margin-top: 10px;
-
+        margin-bottom: 100px;
 
         border: 2px solid gray;
         border-radius: 10px;
@@ -127,12 +127,12 @@
 <Title 
 title="What is a corpus?" 
 subtitle="A collection of written or spoken texts." 
---fontsize="2rem"
+--fontsize="1.5rem"
 prevSlide="/slide1" nextSlide="slide3" />
 
 <div class="slidecontent">
     <div class="textcontent">
-            <StaggeredText {input_text} --fontsize="2.4rem" />
+            <StaggeredText {input_text} --fontsize="2rem" />
     </div>
     <div class="card-page">
         <div in:fade={{duration:1000, delay:500}} class="page">

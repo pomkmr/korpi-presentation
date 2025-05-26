@@ -73,8 +73,9 @@
 
 <style>
     .chartcontainer {
-        width: 900px;
-        height: 600px; 
+        width: 600px;
+        height: 400px;
+        padding: 20px; 
     }
 </style>
 

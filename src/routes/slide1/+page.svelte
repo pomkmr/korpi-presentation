@@ -19,8 +19,8 @@
 </style> 
 
 <div class="slidecontent">
-    <Title nextSlide='slide2' title="Agenda" subtitle="What are we going to talk about?" --fontsize="2rem"/>
+    <Title nextSlide='slide2' title="Agenda" subtitle="What are we going to talk about?" --fontsize="1.5rem"/>
     <div class="textcontent">
-        <StaggeredText --fontsize="2rem" input_text={agenda_text} />
+        <StaggeredText --fontsize="1.5rem" input_text={agenda_text} />
     </div>
 </div>

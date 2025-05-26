@@ -32,7 +32,7 @@
 <Title 
     title="Problem Areas" 
     subtitle="The Problems With Korp" 
-    nextSlide="slide5"
+    nextSlide="slide9"
     prevSlide="slide3"
     --fontsize="1rem"/>
 <div class="textcontent">

@@ -128,7 +128,7 @@
 title="What is a corpus?" 
 subtitle="A collection of written or spoken texts." 
 --fontsize="1.5rem"
-prevSlide="/slide1" nextSlide="slide3" />
+prevSlide="/slide1" nextSlide="slide14" />
 
 <div class="slidecontent">
     <div class="textcontent">

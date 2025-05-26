@@ -54,7 +54,7 @@
     title="Korp" 
     subtitle="Språkbanken provides a search engine for corpora." 
     nextSlide="slide4"
-    prevSlide="slide2"
+    prevSlide="slide14"
     --fontsize="1rem"/>
 
 <div class="slidecontent">

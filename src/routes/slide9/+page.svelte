@@ -59,8 +59,8 @@
 </style>
 
 <Title
-    prevSlide="/slide8"
-    nextSlide="/slide10"
+    prevSlide="/slide4"
+    nextSlide="/slide7"
     title="Method"
     subtitle="Focus Groups Used For Evaluation"
 ></Title>

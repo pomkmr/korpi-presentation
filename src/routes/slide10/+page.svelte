@@ -39,7 +39,7 @@
     title="Conclusion" 
     subtitle="Main Findings From Korpi" 
     nextSlide="slide11"
-    prevSlide="slide9"/>
+    prevSlide="slide13"/>
 <div class="textcontent">
     <StaggeredText --fontsize="1.5rem" input_text={problems} />
 </div>

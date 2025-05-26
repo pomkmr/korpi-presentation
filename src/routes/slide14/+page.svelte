@@ -93,7 +93,7 @@
         title="What is a corpus?" 
         subtitle="A collection of written or spoken texts." 
         --fontsize="2rem"
-        prevSlide="/slide13" nextSlide="/" />
+        prevSlide="/slide2" nextSlide="/slide3" />
     
     <div class="maincontent" in:fade|global={{duration: 1000}}>
         <div class="textcontent">

@@ -89,7 +89,7 @@
 
 <svelte:window onkeydown={onkeydown} />
 
-<Title title="Results" subtitle="What the focus groups thought of Korpi!" nextSlide="/slide6" prevSlide="/slide4"/>
+<Title title="Results" subtitle="What the focus groups thought of Korpi!" nextSlide="/slide13" prevSlide="/slide6"/>
 <div class="slidecontent">
     <div class="aspectstext">
     <!-- svelte-ignore a11y_no_static_element_interactions -->

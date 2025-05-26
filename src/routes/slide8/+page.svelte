@@ -47,7 +47,7 @@
 
 <Title
     prevSlide="/slide7"
-    nextSlide="/slide9"
+    nextSlide="/slide6"
     title = "Method"
     subtitle = "Tech stack used to develop Korpi"
     --fontsize="1rem"

@@ -1,6 +1,8 @@
 <script>
     import Title from "../../components/Title.svelte";
 
+    import pic from "$lib/assets/whiteboard.png";
+
     let showImage = $state(true);
     let showHTMLmock = $state(false);
     let showFigma = $state(false);
@@ -45,7 +47,7 @@
 </style>
 
 <Title 
-prevSlide="/slide6" 
+prevSlide="/slide9" 
 nextSlide="/slide8" 
 title="Method"
 subtitle="Designs Of Korpi"></Title>
@@ -53,7 +55,7 @@ subtitle="Designs Of Korpi"></Title>
 <div class="slidecontainer">
     <div class="maincontent">
     {#if showImage}
-        IMAGE
+        <img src={pic} width="100%" height="100%" alt="" />
     {/if}
     {#if showFigma}
         <iframe title="" style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="100%" 

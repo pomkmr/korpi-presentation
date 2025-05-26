@@ -21,6 +21,10 @@
         display: inline-block;
     }
 
+    .text-column {
+        margin-top: 50px;
+    }
+
     .desc-text {
         font-size: 2rem;
         font-weight: bold;
@@ -48,7 +52,7 @@
 <Title 
     title="The End" 
     subtitle="Thank you to everyone who worked on the project!" 
-    nextSlide="/slide13"
+    nextSlide="/slide12"
     prevSlide="/slide11"/>
 <div class="maincontent">
     <div class="text-column">

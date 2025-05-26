@@ -28,8 +28,8 @@
 <svelte:window onkeydown={onkeydown} />
 
 <Title 
-prevSlide="/slide5" 
-nextSlide="/slide7" 
+prevSlide="/slide8" 
+nextSlide="/slide5" 
 title=""
 subtitle=""
 --fontsize="1rem"></Title>

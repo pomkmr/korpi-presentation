@@ -53,7 +53,7 @@
         <img src={pic} width="100%" alt="" in:fade={{duration: 1000}}/>
     </div>
     <div class="staggertext-container">
-        <StaggeredText input_text={[["", "Skissa prototyper på whiteboard"]]} 
+        <StaggeredText input_text={[["", "Skissa prototyper på whiteboard."]]} 
             --fontsize="2rem"></StaggeredText>
     </div>
 </div>

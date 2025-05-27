@@ -5,7 +5,7 @@
 
     let aim = [
         ["Syfte", 
-            "Utveckla ett gränssnitt för Korp som är användarvänligt för allmänheten."],]
+            "Utveckla ett alternativ till Korp, som är enklare att använda för allmänheten på både stora och små skärmar."],]
 
     let problems = [
             ["Problem 1: Användarvänlig design", 

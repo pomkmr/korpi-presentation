@@ -24,6 +24,12 @@
         box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
         cursor: pointer;
     }
+    .korpi-container {
+        width: 100%;
+        height: 500px;
+        text-align: center;
+        margin: 10px;
+    }
 </style>
 
 <Title 
@@ -33,4 +39,12 @@
     prevSlide="slide10"/>
 <div class="textcontent">
     <StaggeredText --fontsize="1.5rem" input_text={imprv} />
+    <div class="korpi-container">
+        <iframe in:fade={{duration: 1000}}
+        title=""
+        style="width: 90%;height:100%;"
+        src="https://korpi.netlify.app" 
+        frameborder="0">
+    </iframe>
+    </div>
 </div>

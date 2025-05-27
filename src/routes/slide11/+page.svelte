@@ -6,18 +6,27 @@
         ["Ytterligare backend-funktionalitet", "Möjligheten att lägga till korpusar i backend-systemet. Mer statistik och källinformation i Korpsearch."],
         ["Bugs", "Utökad sökning fungerar ibland inte. Vissa element är inte anpassade för dark mode. Statistik kräver två knapptryckningar för att få grafen. Exempelsökningar är inte kopplade till alla korpusar."],
         ]
+
+    let showPage = $state(false);
+    function onkeydown (e) {
+        if (e.key === "ArrowDown") {
+            showPage = true;      
+        } 
+    }
+
 </script>
 
 <style>
     .textcontent {
         margin-top: 100px;
+        margin-bottom: 100px;
         max-width: 1000px;
         border: 2px solid gray;
         border-radius: 15px;
         padding: 90px;
-        padding-bottom: 130px;
+        padding-bottom: 40px;
 
-        transition: box-shadow 0.3s ease;
+        transition: all 0.3s ease;
     }
 
     .textcontent:hover {
@@ -26,11 +35,12 @@
     }
     .korpi-container {
         width: 100%;
-        height: 500px;
+        height: 600px;
         text-align: center;
-        margin: 10px;
     }
 </style>
+
+<svelte:window onkeydown={onkeydown} />
 
 <Title 
     title="Framtida Förbättringar" 
@@ -40,7 +50,9 @@
     --fontsize="2rem"/>
 <div class="textcontent">
     <StaggeredText --fontsize="2rem" input_text={imprv} />
-    <div class="korpi-container">
+    {#if showPage}
+        
+    <div class="korpi-container" in:fade={{duration: 1000}}> 
         <iframe in:fade={{duration: 1000}}
         title=""
         style="width: 90%;height:100%;"
@@ -48,4 +60,5 @@
         frameborder="0">
     </iframe>
     </div>
+    {/if}
 </div>

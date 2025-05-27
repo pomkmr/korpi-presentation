@@ -148,9 +148,10 @@
 
 <Title
     prevSlide="/slide4"
-    nextSlide="/slide7"
+    nextSlide="/slide8"
     title="Metod"
     subtitle="Fokusgrupper användes för utvärdering"
+    --fontsize="1.5rem"
 ></Title>
 
 <div class="slidecontent">

@@ -46,8 +46,8 @@
     <Title 
         title="Metod" 
         subtitle="Utveckling av Korpis Design!" 
-        --fontsize="1rem"
-        prevSlide="/slide2" nextSlide="/slide3" />
+        --fontsize="2rem"
+        prevSlide="/slide2" nextSlide="/slide16" />
     <div class="maincontent">
         <div class="desktop-image img-container">
             <img src={mobile1} width="100%" alt="" in:fade={{duration: 1000}}/>
@@ -58,6 +58,6 @@
     </div>
     <div class="staggertext-container">
         <StaggeredText input_text={[["", "Korpis första design för Landing Page"]]} 
-            --fontsize="2rem"></StaggeredText>
+            --fontsize="2.5rem"></StaggeredText>
     </div>
 </div>

@@ -39,7 +39,8 @@
     title="Slutsats" 
     subtitle="Huvudresultat från Korpi" 
     nextSlide="slide11"
-    prevSlide="slide13"/>
+    prevSlide="slide13"
+    --fontsize="2rem"/>
 <div class="textcontent">
     <StaggeredText --fontsize="1.5rem" input_text={problems} />
 </div>

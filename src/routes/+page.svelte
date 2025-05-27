@@ -18,12 +18,12 @@
 
 <style>
     .title-slide {
-        margin-top: 40px;
+        margin-top: 200px;
     }
 
     .author-container {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(1, 1fr);
 
         margin-top: 50px;
     }

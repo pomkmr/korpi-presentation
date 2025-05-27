@@ -47,13 +47,13 @@
     <Title 
         title="Metod" 
         subtitle="Utveckling av Korpis Design!" 
-        --fontsize="1rem"
-        prevSlide="/slide2" nextSlide="/slide3" />
+        --fontsize="2rem"
+        prevSlide="/slide2" nextSlide="/slide15" />
     <div class="maincontent">
         <img src={pic} width="100%" alt="" in:fade={{duration: 1000}}/>
     </div>
     <div class="staggertext-container">
         <StaggeredText input_text={[["", "Skissa prototyper på whiteboard."]]} 
-            --fontsize="2rem"></StaggeredText>
+            --fontsize="2.5rem"></StaggeredText>
     </div>
 </div>

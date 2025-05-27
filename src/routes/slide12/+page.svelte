@@ -49,10 +49,11 @@
     title="The End" 
     subtitle="Tack till alla som arbetade med projektet!" 
     nextSlide="/slide12"
-    prevSlide="/slide11"/>
+    prevSlide="/slide11"
+    --fontsize="2rem"/>
 <div class="maincontent">
     <div class="text-column">
-        <StaggeredText --fontsize="1.4rem" input_text={text} />
+        <StaggeredText --fontsize="2rem" input_text={text} />
     </div>
     <div in:fade={{duration: 1000}} class="qr-code-column">
         <p class="desc-text">Testa Korpi!</p>

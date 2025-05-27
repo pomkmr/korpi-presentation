@@ -46,8 +46,8 @@
     <Title 
         title="Metod" 
         subtitle="Utveckling av Korpis Design!" 
-        --fontsize="1rem"
-        prevSlide="/slide2" nextSlide="/slide3" />
+        --fontsize="2rem"
+        prevSlide="/slide2" nextSlide="/slide9" />
     <div class="maincontent">
         <div class="desktop-image img-container">
             <img src={mobile1} width="100%" alt="" in:fade={{duration: 1000}}/>

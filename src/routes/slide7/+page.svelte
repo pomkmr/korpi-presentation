@@ -92,7 +92,8 @@
 prevSlide="/slide9" 
 nextSlide="/slide8" 
 title="Metod"
-subtitle="Utveckling av designs för Korpi"></Title>
+subtitle="Utveckling av designs för Korpi"
+--fontsize="1.5rem"></Title>
 
 <div class="slidecontainer">
     <div class="maincontent">

@@ -46,7 +46,7 @@
     }
 
     .alltext {
-        font-size: 1.2rem;
+        font-size:1.7rem;
         margin-top: 10px;
     }
     .maintext {
@@ -61,7 +61,7 @@
 
     .subtext {
         font-weight: 400;
-        font-size: 0.9rem;
+        font-size: 1rem;
     }
     .current-aspect-text {
         text-align: center;
@@ -89,7 +89,8 @@
 
 <svelte:window onkeydown={onkeydown} />
 
-<Title title="Resultat" subtitle="Vad tyckte fokusgrupperna om Korpi?" nextSlide="/slide13" prevSlide="/slide6"/>
+<Title title="Resultat" subtitle="Vad tyckte fokusgrupperna om Korpi?" nextSlide="/slide13" prevSlide="/slide6"
+--fontsize="2rem"/>
 <div class="slidecontent">
     <div class="aspectstext">
     <!-- svelte-ignore a11y_no_static_element_interactions -->

@@ -16,7 +16,7 @@
     .maincontent {
         margin-top: 10px;
         width: 100vw;
-        height: 700px;
+        height: 1000px;
         resize: horizontal;
         overflow: auto;
 
@@ -29,7 +29,7 @@
 
 <Title 
 prevSlide="/slide8" 
-nextSlide="/slide5" 
+nextSlide="/slide17" 
 title="Korpi"
 subtitle=""
 --fontsize="1rem"></Title>

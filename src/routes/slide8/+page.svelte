@@ -16,7 +16,7 @@
         border: 2px solid gray;
         width: 100%;
         height: 600px;
-        margin: 10px 0;
+        margin: 100px 0;
         border-radius: 15px;
 
         transition: box-shadow 0.3s ease;
@@ -37,13 +37,13 @@
     }
 
     .logo-main-text {
-        font-size: 1.5rem;
+        font-size: 2rem;
         font-weight: bold;
         color: darkslategray;
     }
 
     .logo-main-desc {
-        font-size: 1.3rem;
+        font-size: 1.5rem;
         margin-top: 5px;
         letter-spacing: 0.5px;
     }
@@ -64,7 +64,7 @@
     nextSlide="/slide6"
     title = "Metod"
     subtitle = "Kodning och implementering av Korpi"
-    --fontsize="1rem"
+    --fontsize="1.5rem"
 ></Title>
 
 <div class="slidecontent">
@@ -94,7 +94,7 @@
             <img alt="react logo" src={sbLogo} style="height: 100px; width: 100px;"/>
             <div class="text-block">
                 <p class="logo-main-text">Språkbanken Korp API + Korpsearch</p>
-                <p class="logo-main-desc">Backend-systemet bestod av det allmänt tillgängliga <span class="highlight-word">Korp API</span> och <span class="highlight-word">Korpsearch</span>, en API från vår handledare.</p>
+                <p class="logo-main-desc">Backend-systemet bestod av <span class="highlight-word">Korp API</span> och <span class="highlight-word">Korpsearch</span> (från vår handledare).</p>
             </div>
         </div>
     </div>

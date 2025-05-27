@@ -49,17 +49,17 @@
 <Title 
     title="Syfte och Problem" 
     subtitle="Vad vill vi göra?" 
-    nextSlide="slide9"
+    nextSlide="slide17"
     prevSlide="slide3"
-    --fontsize="1rem"/>
+    --fontsize="2rem"/>
 <!-- svelte-ignore a11y_click_events_have_key_events -->
 <!-- svelte-ignore a11y_no_static_element_interactions -->
 <div class="textcontent greenborder" onclick={() => showProblems = true}>
-    <StaggeredText --fontsize="1.5rem" input_text={aim} />
+    <StaggeredText --fontsize="2rem" input_text={aim} />
 </div>
 
 {#if showProblems}
 <div class="textcontent redborder" in:fade={{duration: 1000}}>
-    <StaggeredText --fontsize="1.5rem" input_text={problems} />
+    <StaggeredText --fontsize="2rem" input_text={problems} />
 </div>
 {/if}

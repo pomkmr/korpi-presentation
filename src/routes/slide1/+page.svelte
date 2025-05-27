@@ -17,7 +17,7 @@
     }
 
     .title-text {
-        margin-top: 1px;
+        margin-top: 100px;
     }
 
     @keyframes move-top {
@@ -32,9 +32,9 @@
 
 <div class="slidecontent">
     <div class="title-text">
-        <Title nextSlide='slide2' title="Agenda" subtitle="Vad ska vi prata om?" --fontsize="1rem"/>
+        <Title nextSlide='slide2' title="Agenda" subtitle="Vad ska vi prata om?" --fontsize="2rem"/>
     </div>
     <div class="textcontent">
-        <StaggeredText --fontsize="1.5rem" input_text={agenda_text} />
+        <StaggeredText --fontsize="2rem" input_text={agenda_text} />
     </div>
 </div>

@@ -107,9 +107,9 @@
 
 <style>
     .chartcontainer {
-        margin-top: 50px;
+        margin-top: 100px;
         width: inherit;
-        height: 500px; 
+        height: 600px; 
 
 
         border: 2px solid gray;
@@ -132,7 +132,8 @@
     title="Resultat" 
     subtitle="Aggregerade resultat från alla deltagare" 
     nextSlide="/slide10"
-    prevSlide="/slide5"/>
+    prevSlide="/slide5"
+    --fontsize="2rem"/>
 <div class="chartcontainer" in:fade={{duration:1000}}>
     <canvas bind:this={canvas} id="main-chart" style="width: 100%; height: 100%;"></canvas>
 </div>

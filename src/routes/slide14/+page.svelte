@@ -31,6 +31,7 @@
 </script>
 
 <style>
+    
     .card {
         height: 150px;
         width: 200px;
@@ -38,7 +39,7 @@
         border-radius: 15px;
         padding: 20px;
         margin: 10px;
-
+        text-align: center;
         transition: box-shadow 0.3s ease;
 
     }
@@ -56,7 +57,7 @@
         grid-template-columns: repeat(5, 1fr);
         border-radius: 15px;
         border: 2px solid gray;
-
+        
         transition: box-shadow 0.3s ease;
     }
 
@@ -93,7 +94,7 @@
     <Title 
         title="Vad är en korpus?" 
         subtitle="En samling av stora mängder skrivna eller talade texter." 
-        --fontsize="1rem"
+        --fontsize="2rem"
         prevSlide="/slide2" nextSlide="/slide3" />
     
     <div class="maincontent" in:fade|global={{duration: 1000}}>

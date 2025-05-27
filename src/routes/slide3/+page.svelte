@@ -52,7 +52,7 @@
 
 <Title 
     title="Korp" 
-    subtitle="Språkbanken erbjuder en sökmotor för hundratals korpora." 
+    subtitle="Språkbanken erbjuder en sökmotor för hundratals korpusar." 
     nextSlide="slide4"
     prevSlide="slide14"
     --fontsize="1rem"/>

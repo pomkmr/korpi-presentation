@@ -6,6 +6,7 @@
     import mobile1 from "$lib/assets/Mobile_Landing_Page_1.png";
 
     import pic from "$lib/assets/whiteboard.png";
+    import { fade } from "svelte/transition";
 </script>
 
 

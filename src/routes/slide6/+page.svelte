@@ -29,7 +29,7 @@
 
 <Title 
 prevSlide="/slide8" 
-nextSlide="/slide17" 
+nextSlide="/slide5" 
 title="Korpi"
 subtitle=""
 --fontsize="1rem"></Title>

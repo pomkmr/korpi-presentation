@@ -138,7 +138,7 @@
 title="Vad är en korpus?" 
 subtitle="En samling av stora mängder skrivna eller talade texter." 
 --fontsize="2rem"
-prevSlide="/slide1" nextSlide="slide14" />
+prevSlide="/slide14" nextSlide="slide3" />
 
 <div class="slidecontent">
     {#if showPage}    

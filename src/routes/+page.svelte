@@ -86,9 +86,4 @@
             <span class="supervisor-label">Handledare:</span> Peter Ljunglöf
         </div>
     </div>
-    <div class="footer" in:fade={{duration: 1000, delay: 800}}>
-        <div class="logo">
-            <img src={chalmersLogo} alt=""/>
-        </div>
-    </div>
 </div>

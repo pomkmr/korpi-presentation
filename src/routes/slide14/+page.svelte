@@ -6,7 +6,7 @@
 
     import { onMount } from 'svelte';
 
-    let input_text = [["", "Det kan finnas hundratals texter som innehåller miljontals annoterade ord, grupperade i stora korpusar."]]
+    let input_text = [["", "Det kan finnas hundratals texter som innehåller miljontals ord, grupperade i stora korpusar."]]
 
     const base_url = "rj.txt";
     let dict1 = $state(''); //RJ
@@ -58,6 +58,7 @@
         border-radius: 15px;
         border: 2px solid gray;
         
+        margin: 20px auto;
         transition: box-shadow 0.3s ease;
     }
 
@@ -95,7 +96,7 @@
         title="Vad är en korpus?" 
         subtitle="En samling av stora mängder skrivna eller talade texter." 
         --fontsize="2rem"
-        prevSlide="/slide2" nextSlide="/slide3" />
+        prevSlide="/slide1" nextSlide="/slide2" />
     
     <div class="maincontent" in:fade|global={{duration: 1000}}>
         <div class="textcontent">

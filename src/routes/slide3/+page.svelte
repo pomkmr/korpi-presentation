@@ -54,7 +54,7 @@
     title="Korp" 
     subtitle="Språkbanken erbjuder en sökmotor för hundratals korpusar." 
     nextSlide="slide4"
-    prevSlide="slide14"
+    prevSlide="slide2"
     --fontsize="1rem"/>
 
 <div class="slidecontent">

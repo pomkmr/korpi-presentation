@@ -42,8 +42,5 @@
     prevSlide="slide13"
     --fontsize="2rem"/>
 <div class="textcontent">
-    <StaggeredText --fontsize="1.5rem" input_text={problems} />
-</div>
-<div class="textcontent">
     <StaggeredText --fontsize="2rem" input_text={conc} />
 </div>

@@ -23,7 +23,7 @@
 
     .author-container {
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(3, 1fr);
 
         margin-top: 50px;
     }
@@ -36,12 +36,12 @@
 
     .extra-container {
         margin-top: 40px;
-        margin-left:10px;
+        margin-left:0px;
     }
 
     .supervisor-text {
         font-weight: bold;
-        font-size: 1.2rem;
+        font-size: 1.5rem;
     }
 
     .supervisor-label {
@@ -74,9 +74,9 @@
 
     <div class="subtext" in:fade={{duration: 100, delay: 100}}>Kandidatarbete 2025</div>
 
-    <div class="author-container" in:fade={{duration: 1000, delay: 300}}>
-        {#each authors as author}
-            <div class="author-text">
+    <div class="author-container">
+        {#each authors as author, i}
+            <div class="author-text" in:fade={{duration: 1000, delay: 100*i}}>
                 {author[0]}
             </div>
         {/each}

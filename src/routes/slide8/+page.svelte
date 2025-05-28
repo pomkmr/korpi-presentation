@@ -60,7 +60,7 @@
 
 
 <Title
-    prevSlide="/slide7"
+    prevSlide="/slide9"
     nextSlide="/slide6"
     title = "Metod"
     subtitle = "Kodning och implementering av Korpi"

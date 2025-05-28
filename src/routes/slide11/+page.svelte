@@ -46,7 +46,7 @@
     title="Framtida Förbättringar" 
     subtitle="Vad kan vi göra bättre?" 
     nextSlide="slide12"
-    prevSlide="slide10"
+    prevSlide="slide18"
     --fontsize="2rem"/>
 <div class="textcontent">
     <StaggeredText --fontsize="2rem" input_text={imprv} />

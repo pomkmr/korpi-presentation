@@ -38,7 +38,7 @@
 <Title 
     title="Slutsats" 
     subtitle="Huvudresultat från Korpi" 
-    nextSlide="slide11"
+    nextSlide="slide18"
     prevSlide="slide13"
     --fontsize="2rem"/>
 <div class="textcontent">

@@ -8,7 +8,7 @@
                 "Alla vill inte nödvändigtvis vara med i en obetald fokusgrupp. Resultat från dessa kan vara partiska. Svårt att göra statistika analyser med få medlemar."],
             ["Webbutveckling", 
                 "Det är ett stort och omfattande område där man behöver kunskap om flera olika aspekter."],
-            ["Korpuslingvistik", "Nichad fält. Svårt att definera målgrupper såsom allmänheten. Vad vill allmänheten veta om korpusar?"],
+            ["Korpuslingvistik", "Nischat fält. Svårt att definera målgrupper såsom allmänheten. Vad vill allmänheten veta om korpusar?"],
         ]
 
 </script>
